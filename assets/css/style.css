@@ -12,10 +12,12 @@ header {
 header div {
   display: flex;
   align-items: center;
+  margin: 0px 100px;
 }
 
 header nav {
   font-family: "Roboto", serif;
+  margin: 0px 100px;
 }
 
 header nav ul {
