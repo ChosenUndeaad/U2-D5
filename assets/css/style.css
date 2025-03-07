@@ -161,6 +161,7 @@ main .two-columns {
   margin-left: 10%;
   margin-right: 10%;
   color: #191919;
+  display: flex;
 }
 
 .to-read {
@@ -214,7 +215,7 @@ main .two-columns {
 
 .content {
   display: inline-block;
-  width: 500px;
+  width: 700px;
 }
 
 .image-placeholder {
@@ -225,4 +226,58 @@ main .two-columns {
 .image-placeholder img {
   width: 200px;
   height: auto;
+}
+
+/* COLONNA DX*/
+
+.tags {
+  font-family: "Roboto", serif;
+  width: 500px;
+  color: #7d7d7d;
+}
+
+.tags h2 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.side-tags {
+  list-style: none;
+  padding: 1em;
+  margin: 10px 0;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.side-tags li {
+  margin: 0.2em;
+  padding: 1em;
+  border: 1px #c0c0c0 solid;
+  border-radius: 5px;
+}
+.side-tags li:hover {
+  background-color: #e3e3e3;
+  cursor: pointer;
+}
+
+.side-menu {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.side-menu li {
+  color: #7d7d7d;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.side-menu li:hover {
+  font-weight: bold;
 }
