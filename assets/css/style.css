@@ -1,28 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
+body {
+  height: 200vh;
+}
+
 header {
   background-color: #ffc017;
   padding: 1em;
-  border-bottom: 1px black solid;
+  border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 header div {
   display: flex;
   align-items: center;
-  margin: 0px 100px;
+  margin: 0 100px;
 }
 
 header nav {
   font-family: "Roboto", serif;
-  margin: 0px 100px;
+  margin: 0 100px;
 }
 
 header nav ul {
   list-style: none;
-  display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,8 +41,8 @@ header nav button {
   background-color: #191919;
   font-family: "Roboto", serif;
   padding: 1em;
-  color: #ffffff;
-  border: 0 rgba(0, 0, 0, 0) solid;
+  color: white;
+  border: none;
   border-radius: 50px;
   display: flex;
   justify-content: center;
