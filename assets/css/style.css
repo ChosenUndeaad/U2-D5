@@ -21,10 +21,25 @@ header nav {
 header nav ul {
   list-style: none;
   display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav ul li {
   margin: 0 1em;
+}
+
+header nav button {
+  background-color: #191919;
+  font-family: "Roboto", serif;
+  padding: 1em;
+  color: #ffffff;
+  border: 0 rgba(0, 0, 0, 0) solid;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .stay-curious {
@@ -58,7 +73,7 @@ header nav ul li {
   color: #ffffff;
   margin: 1em;
   padding: 1em;
-  border: 0 black solid;
+  border: 0 rgba(255, 255, 255, 0) solid;
   border-radius: 50px;
   width: 300px;
   height: 50px;
