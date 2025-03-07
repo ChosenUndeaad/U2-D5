@@ -214,6 +214,7 @@ main .two-columns {
 
 .content {
   display: inline-block;
+  width: 500px;
 }
 
 .image-placeholder {
