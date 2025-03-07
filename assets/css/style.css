@@ -81,3 +81,58 @@ header nav button {
   justify-content: center;
   align-items: center;
 }
+
+/* TRENDING ARTICLES */
+
+.trending-articles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.trend {
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  font-family: "Roboto", serif;
+  color: #191919;
+  align-items: flex-start;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+}
+
+.image-cooper {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5em;
+}
+
+.trend p {
+  font-weight: bold;
+  display: inline;
+  margin-left: 0.5em;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5em;
+}
+
+.trend h3 {
+  font-size: larger;
+  font-weight: 900;
+}
+
+.trend h4 {
+  color: #7d7d7d;
+}
+
+.trend h2 {
+  color: #d7d7d7;
+  font-size: 50px;
+  font-weight: 900;
+}
