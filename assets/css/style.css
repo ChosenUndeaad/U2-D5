@@ -97,23 +97,32 @@ header nav button {
   font-family: "Roboto", serif;
   color: #191919;
   align-items: flex-start;
+  max-width: 500px;
 }
 
 .number {
   display: flex;
   align-items: center;
+  margin-right: 0.5em;
 }
 
-.image-cooper {
+.pfp {
   display: flex;
   align-items: center;
-  margin-left: 0.5em;
+}
+
+.pfp img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
 }
 
 .trend p {
   font-weight: bold;
   display: inline;
   margin-left: 0.5em;
+  margin-top: 0.5em;
+  padding: 1em;
 }
 
 .title-container {
@@ -125,10 +134,13 @@ header nav button {
 .trend h3 {
   font-size: larger;
   font-weight: 900;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 .trend h4 {
   color: #7d7d7d;
+  margin-top: 0.5em;
 }
 
 .trend h2 {
