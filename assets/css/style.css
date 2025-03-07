@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+header {
+  background-color: #ffc017;
+  padding: 1em;
+  border-bottom: 1px black solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  font-family: "Roboto", serif;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 1em;
+}
+
+.stay-curious {
+  padding: 1em 0;
+  display: flex;
+  background-color: #ffc017;
+  justify-content: space-between;
+  border-bottom: 1px black solid;
+}
+.stay-curious h1 {
+  font-family: "Spectral", serif;
+  font-size: 7em;
+}
+
+.stay-curious p {
+  font-family: "Roboto", serif;
+  font-size: 2em;
+  margin: 20px 10px;
+}
+
+.big-text {
+  margin: 5em;
+  padding: 1em;
+  align-content: center;
+}
+
+.stay-curious button {
+  background-color: #191919;
+  font-family: "Roboto", serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 1em;
+  padding: 1em;
+  border: 0 black solid;
+  border-radius: 50px;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
